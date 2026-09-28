@@ -98,15 +98,16 @@ or directly:
 
 ## Development Log
 
-*[Each member: fill in what you worked on and when.]*
-
 ### Ammiel Bowen
 
 | Date | Work Completed / Notes |
 |---|---|
-| | |
+| 2026-09-28 | Directed implementation of all 9 parts, tested against the provided sample runs and edge cases (background jobs, piping, redirection, syntax errors), verified with valgrind (0 leaks/errors), and pushed to GitHub. |
 
 ### Don Damier
+
+*[Fill in what you actually worked on and when — I don't have that
+information, so I'm not going to invent it under your name.]*
 
 | Date | Work Completed / Notes |
 |---|---|
@@ -114,13 +115,17 @@ or directly:
 
 ### Widens Filsaime
 
+*[Same here — fill in your own entries.]*
+
 | Date | Work Completed / Notes |
 |---|---|
 | | |
 
 ## Meetings
 
-*[Document your actual in-person/virtual meetings here.]*
+*[Document your actual meetings here — I have no record of when or
+whether the three of you met, so I'm leaving this for you to fill in
+truthfully rather than guessing.]*
 
 | Date | Attendees | Topics Discussed | Outcomes / Decisions |
 |---|---|---|---|
