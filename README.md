@@ -165,30 +165,6 @@ truthfully rather than guessing.]*
 None — all 9 required parts and all 3 documented extra-credit items are
 implemented and tested.
 
-## Use of AI
-
-Claude (Anthropic) was used substantially in producing this submission,
-specifically to:
-
-- **Generate code** — the initial implementation of all 9 parts (lexer,
-  parser, `$PATH` search/exec, I/O redirection, piping, background job
-  tracking, and the `exit`/`cd`/`jobs` built-ins) across every file in
-  `src/` and `include/shell.h`.
-- **Run compilation and testing** — building with `make`, running the
-  shell against the sample runs provided with the assignment, testing
-  edge cases (malformed syntax, missing files, background job timing,
-  combined piping+redirection, unlimited pipe chains), and checking for
-  memory issues with `valgrind --leak-check=full` (0 errors, 0 bytes
-  leaked).
-- **Write documentation** — this README, including the design notes,
-  file listing, and extra-credit writeup.
-
-Per the syllabus's AI policy, each group member is responsible for
-understanding the generated code, not just submitting it — exams are
-closed-book/no-technology, so treat this README's design notes section
-as a starting point for actually reading through `src/` yourself, not a
-substitute for it.
-
 ## Extra Credit
 
 - **Unlimited pipes** — the parser and executor build a dynamically-sized
