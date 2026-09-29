@@ -13,6 +13,12 @@ piping (unlimited pipe stages), background processing, and internal
 
 Group Number: 37
 
+**Ammiel Bowen's assigned parts** (from the Division of Labor table below):
+- Lead: Part 1 (Prompt), Part 4 ($PATH Search), Part 6 (I/O Redirection)
+- Support: Part 3 (Tilde Expansion), Part 5 (External Command Execution),
+  Part 9 (Internal Command Execution)
+- Extra Credit (shared by all members)
+
 ## Division of Labor (before)
 
 | Part | Assigned to |
